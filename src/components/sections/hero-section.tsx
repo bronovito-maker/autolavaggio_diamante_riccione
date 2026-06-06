@@ -20,10 +20,10 @@ export function HeroSection() {
           priority
           quality={90}
           sizes="100vw"
-          className="object-cover opacity-60" 
+          className="object-cover opacity-80" 
         />
-        {/* Overlay gradient per garantire la leggibilità del testo pur lasciando intravedere bene l'auto */}
-        <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/60 to-background z-10" />
+        {/* Overlay gradient ridotto per mostrare i colori originali */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-background/40 to-background z-10" />
       </div>
 
       <div className="relative z-20 container mx-auto px-4 md:px-6 pt-20 md:pt-12 flex flex-col items-center text-center">
