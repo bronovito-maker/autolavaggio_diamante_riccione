@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Clock, MessageCircle, Map } from "lucide-react";
-import { useState } from "react";
+import { MapPin, Phone, Mail, Clock, MessageCircle, Map, ChevronDown } from "lucide-react";
+import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
@@ -16,6 +16,26 @@ export function ContactsSection() {
     servizio: "Lavaggio Manuale Certificato",
     note: ""
   });
+
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Chiudi il dropdown se clicchi fuori
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsDropdownOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const serviceOptions = [
+    { value: "Lavaggio Manuale Certificato", label: t("opt_wash") },
+    { value: "Cura degli Interni Premium", label: t("opt_interior") },
+    { value: "Trattamento Completo", label: t("opt_full") }
+  ];
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -126,7 +146,7 @@ export function ContactsSection() {
                       onChange={handleChange}
                       placeholder={t("ph_name")}
                       required
-                      className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 text-primary focus:outline-none focus:border-accent-gold transition-colors placeholder:text-white/20"
+                      className="w-full bg-background border border-accent-gold/40 rounded-lg px-4 py-3 text-primary focus:outline-none focus:border-accent-gold transition-colors placeholder:text-white/50"
                     />
                   </div>
 
@@ -141,7 +161,7 @@ export function ContactsSection() {
                       onChange={handleChange}
                       placeholder={t("ph_phone")}
                       required
-                      className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 text-primary focus:outline-none focus:border-accent-gold transition-colors placeholder:text-white/20"
+                      className="w-full bg-background border border-accent-gold/40 rounded-lg px-4 py-3 text-primary focus:outline-none focus:border-accent-gold transition-colors placeholder:text-white/50"
                     />
                   </div>
 
@@ -157,25 +177,42 @@ export function ContactsSection() {
                         onChange={handleChange}
                         placeholder={t("ph_model")}
                         required
-                        className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 text-primary focus:outline-none focus:border-accent-gold transition-colors placeholder:text-white/20"
+                        className="w-full bg-background border border-accent-gold/40 rounded-lg px-4 py-3 text-primary focus:outline-none focus:border-accent-gold transition-colors placeholder:text-white/50"
                       />
                     </div>
-                    <div>
+                    <div ref={dropdownRef}>
                       <label className="block text-sm font-medium text-primary mb-2">
                         {t("lbl_service")}
                       </label>
-                      <select 
-                        name="servizio"
-                        value={formData.servizio}
-                        onChange={handleChange}
-                        required
-                        className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 text-primary focus:outline-none focus:border-accent-gold transition-colors appearance-none"
-                      >
-                        <option value="" disabled className="text-white/20">Seleziona...</option>
-                        <option value="Lavaggio Manuale Certificato">{t("opt_wash")}</option>
-                        <option value="Cura degli Interni Premium">{t("opt_interior")}</option>
-                        <option value="Trattamento Completo">{t("opt_full")}</option>
-                      </select>
+                      <div className="relative">
+                        <button
+                          type="button"
+                          onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                          className="w-full bg-background border border-accent-gold/40 rounded-lg px-4 py-3 text-primary focus:outline-none focus:border-accent-gold transition-colors flex items-center justify-between"
+                        >
+                          <span className={formData.servizio ? "text-primary" : "text-white/50"}>
+                            {serviceOptions.find(o => o.value === formData.servizio)?.label || "Seleziona..."}
+                          </span>
+                          <ChevronDown className={`w-5 h-5 text-accent-gold transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : ''}`} />
+                        </button>
+                        
+                        {isDropdownOpen && (
+                          <div className="absolute z-50 w-full mt-2 bg-surface border border-accent-gold/40 rounded-lg shadow-xl overflow-hidden">
+                            {serviceOptions.map((option) => (
+                              <div
+                                key={option.value}
+                                onClick={() => {
+                                  setFormData({...formData, servizio: option.value});
+                                  setIsDropdownOpen(false);
+                                }}
+                                className={`px-4 py-3 cursor-pointer transition-colors hover:bg-accent-gold/10 ${formData.servizio === option.value ? 'bg-accent-gold/20 text-accent-gold' : 'text-primary'}`}
+                              >
+                                {option.label}
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
                     </div>
                   </div>
 
@@ -189,7 +226,7 @@ export function ContactsSection() {
                       onChange={handleChange}
                       rows={3}
                       placeholder={t("ph_notes")}
-                      className="w-full bg-background border border-white/10 rounded-lg px-4 py-3 text-primary focus:outline-none focus:border-accent-gold transition-colors placeholder:text-white/20 resize-none"
+                      className="w-full bg-background border border-accent-gold/40 rounded-lg px-4 py-3 text-primary focus:outline-none focus:border-accent-gold transition-colors placeholder:text-white/50 resize-none"
                     ></textarea>
                   </div>
 
