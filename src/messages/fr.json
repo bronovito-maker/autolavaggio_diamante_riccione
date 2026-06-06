@@ -23,13 +23,15 @@
     "interior_desc": "Le cuir est vivant. Nous le nourrissons, l'hydratons, le protégeons comme on le fait avec une bonne paire de chaussures anglaises ou avec la selle d'une Harley. De la vapeur sèche pour désinfecter sans agresser. Des huiles spécifiques pour les tableaux de bord en ronce, fibre de carbone, Alcantara. Chaque matériau a son baume, sa caresse, son temps de repos. Et nous lui accordons tout.",
     "opt_wash": "Lavage Manuel Certifié",
     "opt_interior": "Soin Intérieur Premium",
-    "opt_full": "Traitement Complet"
+    "opt_full": "Traitement Complet",
+    "cta_consult": "Demander une Consultation"
   },
   "Method": {
     "title": "Le Traitement pour Votre Ferrari",
     "quote": "\"Les rouleaux détruisent. Nous préservons.\"",
-    "p1": "Nous n'avons pas peur de le dire. Un tunnel de lavage est le cimetière de la peinture. Micro-rayures, tourbillons, opacité. Surtout sur les couleurs sombres, sur le noir profond, sur les finitions mates ou satinées.",
-    "p2": "Nous utilisons de l'eau adoucie et filtrée, des produits à pH neutre, et de la technique. Seulement de la technique. Parce que votre Ferrari—ou votre Aston Martin, ou votre Alfa Romeo de 68—mérite de briller comme au premier jour. Ou peut-être encore plus.",
+    "p1": "Nous n'avons pas peur de le dire. Un tunnel de lavage est le tombeau de la peinture. Micro-rayures, tourbillons, opacité. Surtout sur les couleurs foncées, sur le noir profond, sur les finitions mates ou satinées.",
+    "p2": "Nous utilisons de l'eau adoucie et filtrée, des produits au pH neutre, et de la technique. De la technique pure. Parce que votre Ferrari—ou votre Aston Martin, ou votre Alfa Romeo de '68—mérite de briller comme au premier jour. Ou peut-être même plus.",
+    "vehicles_supported": "Nous prenons soin de chaque véhicule avec la même attention maniaque : des voitures de tous les jours aux SUV, des fourgonnettes d'entreprise aux motos custom, jusqu'aux supercars de luxe.",
     "img_alt": "Car Detailing en Action"
   },
   "Portfolio": {
@@ -87,5 +89,13 @@
     "es": "Español",
     "fr": "Français",
     "de": "Deutsch"
+  },
+  "StickyCTA": {
+    "navigate": "Naviguer",
+    "call": "Appeler"
+  },
+  "SEO": {
+    "title": "Autolavaggio Diamante | Car Detailing Riccione",
+    "description": "L'excellence du Car Detailing à Riccione. Soin sur mesure pour votre voiture, lavage à la main sans rayures et traitements nanotechnologiques premium."
   }
 }

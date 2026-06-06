@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 
 export function HeroSection() {
   const t = useTranslations("Hero");
+  const tReviews = useTranslations("Reviews");
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -70,8 +71,8 @@ export function HeroSection() {
               <Star key={star} className="w-4 h-4 fill-accent-gold text-accent-gold" />
             ))}
           </div>
-          <span className="text-sm font-medium text-primary">
-            4.9/5 <span className="text-secondary font-normal hidden sm:inline-block ml-1">su 220+ Recensioni Google</span>
+          <span className="text-sm font-medium text-primary flex items-center gap-1.5">
+            4.9/5 <span className="text-secondary font-normal text-xs sm:text-sm whitespace-nowrap">{tReviews("based_on")} 220+ {tReviews("google_reviews")}</span>
           </span>
         </motion.div>
 
@@ -81,14 +82,20 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
           className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto"
         >
-          <button className="group relative px-8 py-4 bg-accent-gold text-background font-medium rounded-sm overflow-hidden w-full sm:w-auto flex items-center justify-center gap-2 transition-transform hover:scale-105 active:scale-95">
+          <a 
+            href="#contatti" 
+            className="group relative px-8 py-4 bg-accent-gold text-background font-medium rounded-sm overflow-hidden w-full sm:w-auto flex items-center justify-center gap-2 transition-transform hover:scale-105 active:scale-95"
+          >
             <span className="relative z-10">{t("cta_primary")}</span>
             <ChevronRight className="w-4 h-4 relative z-10 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </a>
           
-          <button className="px-8 py-4 bg-transparent text-primary font-medium rounded-sm border border-accent-platinum/30 hover:border-accent-platinum hover:bg-surface transition-all w-full sm:w-auto">
+          <a 
+            href="#metodo" 
+            className="flex items-center justify-center px-8 py-4 bg-transparent text-primary font-medium rounded-sm border border-accent-platinum/30 hover:border-accent-platinum hover:bg-surface transition-all w-full sm:w-auto"
+          >
             {t("cta_secondary")}
-          </button>
+          </a>
         </motion.div>
       </div>
 

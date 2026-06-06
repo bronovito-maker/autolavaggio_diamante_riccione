@@ -23,6 +23,7 @@ export function MethodSection() {
             <div className="space-y-4 text-secondary leading-relaxed">
               <p>{t("p1")}</p>
               <p>{t("p2")}</p>
+              <p className="mt-4 pt-4 border-t border-white/5 italic opacity-80">{t("vehicles_supported")}</p>
             </div>
             <div className="mt-10 grid grid-cols-2 gap-6">
               <div className="border-l-2 border-accent-gold pl-4">
@@ -44,7 +45,7 @@ export function MethodSection() {
             className="w-full lg:w-1/2 relative h-[500px] rounded-lg overflow-hidden border border-white/10"
           >
             <Image
-              src="/images/portfolio/gwagon.jpg"
+              src="/images/portfolio/ferrari.jpg"
               alt={t("img_alt")}
               fill
               quality={90}

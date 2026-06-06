@@ -204,26 +204,17 @@ export function ContactsSection() {
               </div>
             </div>
 
-            <div className="mt-16 w-full h-[400px] rounded-2xl overflow-hidden border border-white/10 relative group">
-              <a 
-                href="https://maps.app.goo.gl/ts185o8iYGpGS6oW9"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="absolute inset-0 z-10 flex items-center justify-center bg-background/50 opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur-sm"
-              >
-                <div className="flex items-center gap-2 bg-surface px-6 py-3 rounded-full border border-white/10 text-primary">
-                  <Map className="w-5 h-5 text-accent-gold" />
-                  <span>Apri in Google Maps</span>
-                </div>
-              </a>
-              <Image
-                src="/images/map-preview.png"
-                alt="Mappa Autolavaggio Diamante Riccione"
-                fill
-                quality={90}
-                sizes="(max-width: 1024px) 100vw, 66vw"
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-              />
+            <div className="mt-16 w-full h-[400px] rounded-2xl overflow-hidden border border-white/10 relative">
+              <iframe 
+                src="https://maps.google.com/maps?q=Autolavaggio%20Diamante%20Riccione,%20Viale%20Portofino,%2051,%2047838%20Riccione%20RN&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="opacity-80 hover:opacity-100 transition-opacity duration-700"
+              ></iframe>
             </div>
 
           </motion.div>

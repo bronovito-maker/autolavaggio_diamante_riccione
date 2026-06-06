@@ -20,13 +20,15 @@
     "washing_title": "Il Lavaggio che Non Graffia",
     "washing_desc": "Due secchi. Filtri antiparticolato nell'acqua. Pre-lavaggio a schiuma densa che solleva lo sporco prima ancora di sfiorare la vernice. E poi panni, dieci, venti, ognuno per una zona diversa del corpo vettura, per non trasferire mai una sola impurità da una superficie all'altra. Il risultato? Zero swirls. Zero aloni. Solo profondità di colore.",
     "interior_title": "Interni: La Pelle Respira",
-    "interior_desc": "La pelle è viva. La nutriamo, la idratiamo, la proteggiamo come si fa con un buon paio di scarpe inglesi o con la sella di una Harley. Vapore secco per igienizzare senza aggredire. Oli specifici per cruscotti in radica, fibra di carbonio, Alcantara. Ogni materiale ha il suo balsamo, la sua carezza, il suo tempo di posa. E noi glielo concediamo tutto."
+    "interior_desc": "La pelle è viva. La nutriamo, la idratiamo, la proteggiamo come si fa con un buon paio di scarpe inglesi o con la sella di una Harley. Vapore secco per igienizzare senza aggredire. Oli specifici per cruscotti in radica, fibra di carbonio, Alcantara. Ogni materiale ha il suo balsamo, la sua carezza, il suo tempo di posa. E noi glielo concediamo tutto.",
+    "cta_consult": "Richiedi Consulenza"
   },
   "Method": {
     "title": "Il Trattamento per la Tua Ferrari",
     "quote": "\"I rulli distruggono. Noi preserviamo.\"",
     "p1": "Non abbiamo paura di dirlo. Un autolavaggio a tunnel è la tomba della vernice. Micrograffi, swirl, opacità. Soprattutto sui colori scuri, sul nero profondo, sulle verniciature opache o satinate.",
     "p2": "Noi usiamo acqua addolcita e filtrata, prodotti a pH neutro, e tecnica. Solo tecnica. Perché la tua Ferrari—o la tua Aston Martin, o la tua Alfa Romeo del '68—merita di splendere come il primo giorno. O forse di più.",
+    "vehicles_supported": "Ci prendiamo cura di ogni veicolo con la stessa maniacale attenzione: dalle auto di tutti i giorni ai SUV, dai furgoni aziendali alle moto custom, fino alle supercar di lusso.",
     "img_alt": "Car Detailing in Azione"
   },
   "Portfolio": {
@@ -84,5 +86,13 @@
     "es": "Español",
     "fr": "Français",
     "de": "Deutsch"
+  },
+  "StickyCTA": {
+    "navigate": "Naviga",
+    "call": "Chiama"
+  },
+  "SEO": {
+    "title": "Autolavaggio Diamante | Car Detailing Riccione",
+    "description": "L'eccellenza del Car Detailing a Riccione. Cura sartoriale per la tua auto, lavaggio a mano anti-graffio e trattamenti nanotecnologici premium."
   }
 }

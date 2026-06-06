@@ -68,9 +68,12 @@ export function ServicesSection() {
                   <p className="text-secondary leading-relaxed">
                     {service.description}
                   </p>
-                  <button className="mt-8 text-accent-gold font-medium flex items-center gap-2 group-hover:gap-3 transition-all text-sm uppercase tracking-wider">
-                    Richiedi Consulenza <span className="text-lg">→</span>
-                  </button>
+                  <a 
+                    href="#contatti"
+                    className="mt-8 text-accent-gold font-medium flex items-center gap-2 group-hover:gap-3 transition-all text-sm uppercase tracking-wider"
+                  >
+                    {t("cta_consult")} <span className="text-lg">→</span>
+                  </a>
                 </div>
               </motion.div>
             );

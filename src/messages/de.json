@@ -23,13 +23,15 @@
     "interior_desc": "Leder lebt. Wir nähren es, spenden ihm Feuchtigkeit und schützen es wie ein Paar feiner englischer Schuhe oder einen Harley-Sattel. Trockendampf zur schonenden Desinfektion. Spezielle Öle für Armaturenbretter aus Wurzelholz, Kohlefaser, Alcantara. Jedes Material hat seinen Balsam, seine Liebkosung, seine Einwirkzeit. Und wir gewähren ihm alles.",
     "opt_wash": "Zertifizierte Handwäsche",
     "opt_interior": "Premium Innenraumpflege",
-    "opt_full": "Komplette Behandlung"
+    "opt_full": "Komplette Behandlung",
+    "cta_consult": "Beratung Anfordern"
   },
   "Method": {
     "title": "Die Behandlung für Ihren Ferrari",
     "quote": "\"Waschanlagen zerstören. Wir bewahren.\"",
-    "p1": "Wir scheuen uns nicht, es zu sagen. Eine Waschstraße ist der Friedhof des Lacks. Mikrokratzer, Swirls, Trübung. Besonders bei dunklen Farben, bei tiefem Schwarz, bei matten oder seidigen Lackierungen.",
-    "p2": "Wir verwenden enthärtetes und gefiltertes Wasser, pH-neutrale Produkte und Technik. Nur Technik. Weil Ihr Ferrari – oder Ihr Aston Martin, oder Ihr 68er Alfa Romeo – es verdient hat, wie am ersten Tag zu glänzen. Oder vielleicht noch mehr.",
+    "p1": "Wir haben keine Angst, es zu sagen. Eine Waschstraße ist das Grab für den Lack. Mikrokratzer, Swirls, Mattheit. Besonders bei dunklen Farben, tiefem Schwarz, matten oder seidenmatten Lackierungen.",
+    "p2": "Wir verwenden enthärtetes und gefiltertes Wasser, pH-neutrale Produkte und Technik. Reine Technik. Denn Ihr Ferrari – oder Ihr Aston Martin, oder Ihr 68er Alfa Romeo – verdient es, wie am ersten Tag zu glänzen. Oder vielleicht sogar mehr.",
+    "vehicles_supported": "Wir kümmern uns um jedes Fahrzeug mit der gleichen obsessiven Aufmerksamkeit: von Alltagsautos bis zu SUVs, von Firmenwagen bis zu Custom-Bikes, bis hin zu Luxus-Supercars.",
     "img_alt": "Car Detailing in Aktion"
   },
   "Portfolio": {
@@ -87,5 +89,13 @@
     "es": "Español",
     "fr": "Français",
     "de": "Deutsch"
+  },
+  "StickyCTA": {
+    "navigate": "Navigieren",
+    "call": "Anrufen"
+  },
+  "SEO": {
+    "title": "Autolavaggio Diamante | Premium Car Detailing Riccione",
+    "description": "Die Exzellenz des Car Detailing in Riccione. Maßgeschneiderte Pflege für Ihr Auto, kratzerfreie Handwäsche und erstklassige Nanotechnik-Behandlungen."
   }
 }

@@ -23,13 +23,15 @@
     "interior_desc": "Leather is alive. We nourish it, hydrate it, and protect it like a fine pair of English shoes or a Harley saddle. Dry steam to sanitize without being aggressive. Specific oils for briarwood, carbon fiber, and Alcantara dashboards. Every material has its balm, its caress, its resting time. And we grant it all.",
     "opt_wash": "Certified Hand Wash",
     "opt_interior": "Premium Interior Care",
-    "opt_full": "Complete Treatment"
+    "opt_full": "Complete Treatment",
+    "cta_consult": "Request Consultation"
   },
   "Method": {
     "title": "The Treatment for Your Ferrari",
     "quote": "\"Rollers destroy. We preserve.\"",
     "p1": "We are not afraid to say it. A tunnel car wash is the graveyard of paint. Micro-scratches, swirls, opacity. Especially on dark colors, on deep black, on matte or satin finishes.",
     "p2": "We use softened and filtered water, pH-neutral products, and technique. Pure technique. Because your Ferrari—or your Aston Martin, or your '68 Alfa Romeo—deserves to shine like the very first day. Or perhaps even more.",
+    "vehicles_supported": "We care for every vehicle with the same obsessive attention: from everyday cars to SUVs, from company vans to custom motorcycles, up to luxury supercars.",
     "img_alt": "Car Detailing in Action"
   },
   "Portfolio": {
@@ -87,5 +89,13 @@
     "es": "Español",
     "fr": "Français",
     "de": "Deutsch"
+  },
+  "StickyCTA": {
+    "navigate": "Navigate",
+    "call": "Call"
+  },
+  "SEO": {
+    "title": "Autolavaggio Diamante | Premium Car Detailing Riccione",
+    "description": "The excellence of Car Detailing in Riccione. Sartorial care for your car, scratch-free hand wash and premium nanotech treatments."
   }
 }
