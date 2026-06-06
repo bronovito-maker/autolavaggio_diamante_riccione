@@ -52,7 +52,7 @@ export async function GET() {
       user_ratings_total: data.result.user_ratings_total,
       reviews: data.result.reviews,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Errore recupero recensioni:", error);
     return NextResponse.json({ error: "Impossibile caricare le recensioni al momento." }, { status: 500 });
   }

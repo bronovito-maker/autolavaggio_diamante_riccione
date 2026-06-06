@@ -1,0 +1,91 @@
+{
+  "Navbar": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "method": "Nuestro Método",
+    "portfolio": "Portafolio",
+    "contacts": "Contactos"
+  },
+  "Hero": {
+    "title1": "El cuidado no es opcional.",
+    "title2": "Es lo único que importa.",
+    "subtitle": "Hay un sonido que reconoces de inmediato. Es el susurro de un paño de microfibra virgen sobre una carrocería recién tratada. No chirría. No raya. Se desliza como seda sobre seda. Es el sonido de nuestro trabajo.",
+    "cta_primary": "Reserva un Tratamiento",
+    "cta_secondary": "Descubre nuestro Método",
+    "tagline": "La Excelencia del Car Detailing en Riccione"
+  },
+  "Services": {
+    "title": "Nuestros Rituales",
+    "subtitle": "Nada de máquinas automáticas. Nada de cepillos. Solo manos, productos seleccionados de todo el mundo y un protocolo maniático que no se salta ni un paso, ni bajo tortura.",
+    "washing_title": "El Lavado que No Raya",
+    "washing_desc": "Dos cubos. Filtros de partículas en el agua. Prelavado con espuma densa que levanta la suciedad incluso antes de rozar la pintura. Y luego paños, diez, veinte, cada uno para una zona diferente de la carrocería, para no transferir nunca una sola impureza de una superficie a otra. ¿El resultado? Cero remolinos. Cero halos. Solo profundidad de color.",
+    "interior_title": "Interiores: La Piel Respira",
+    "interior_desc": "La piel está viva. La nutrimos, la hidratamos, la protegemos como se hace con un buen par de zapatos ingleses o con el asiento de una Harley. Vapor seco para higienizar sin agredir. Aceites específicos para salpicaderos de raíz, fibra de carbono, Alcantara. Cada material tiene su bálsamo, su caricia, su tiempo de reposo. Y nosotros se lo concedemos todo.",
+    "opt_wash": "Lavado Manual Certificado",
+    "opt_interior": "Cuidado de Interiores Premium",
+    "opt_full": "Tratamiento Completo"
+  },
+  "Method": {
+    "title": "El Tratamiento para tu Ferrari",
+    "quote": "\"Los rodillos destruyen. Nosotros preservamos.\"",
+    "p1": "No tenemos miedo de decirlo. Un túnel de lavado es el cementerio de la pintura. Microarañazos, remolinos, opacidad. Especialmente en colores oscuros, en negro profundo, en acabados mate o satinados.",
+    "p2": "Nosotros usamos agua descalcificada y filtrada, productos de pH neutro y técnica. Solo técnica. Porque tu Ferrari, o tu Aston Martin, o tu Alfa Romeo del 68, merece brillar como el primer día. O tal vez más.",
+    "img_alt": "Car Detailing en Acción"
+  },
+  "Portfolio": {
+    "title": "Mira, No Hace Falta Explicar",
+    "subtitle": "Los resultados hablan por sí solos. Desplázate por nuestros trabajos más recientes y descubre el nivel de perfección que podemos lograr para tu coche.",
+    "ferrari_title": "Ferrari Roma",
+    "ferrari_cap": "La luz que se desliza sobre el capó.",
+    "lambo_title": "Lamborghini Huracán",
+    "lambo_cap": "Geometrías afiladas, ahora impecables.",
+    "aston_title": "Aston Martin DB11",
+    "aston_cap": "Elegancia británica, cuidado italiano.",
+    "gwagon_title": "Mercedes-Benz Clase G",
+    "gwagon_cap": "Incluso los gigantes saben ser delicados.",
+    "alfa_title": "Alfa Romeo GT Junior",
+    "alfa_cap": "Un pedazo de corazón, devuelto a su esplendor.",
+    "harley_title": "Harley-Davidson Street Glide",
+    "harley_cap": "Cromo que ciega. Piel que perfuma."
+  },
+  "Reviews": {
+    "title": "Escúchalos a Ellos, No a Nosotros",
+    "subtitle": "¿No nos crees? Date una vuelta por Google y lee lo que dicen nuestros clientes. Nosotros, mientras tanto, volvemos al trabajo.",
+    "based_on": "sobre",
+    "google_reviews": "reseñas de Google",
+    "fallback_note": "Nota: Mostrando reseñas de respaldo"
+  },
+  "Contacts": {
+    "title": "Ven a Visitarnos.<br/>O Mejor, Tráenos Tu Coche.",
+    "subtitle": "Estamos a dos pasos del mar, pero dentro de nuestro laboratorio el tiempo se detiene. La arena se queda fuera. El cuidado entra.",
+    "form_title": "Reserva Ahora",
+    "form_subtitle": "No es un formulario frío. Es el primer paso de una relación de confianza.",
+    "lbl_name": "Tu nombre",
+    "ph_name": "(¿Cómo debemos llamarte?)",
+    "lbl_phone": "Teléfono / WhatsApp",
+    "ph_phone": "(Así podemos enviarte una foto del trabajo terminado)",
+    "lbl_model": "Tu coche o moto",
+    "ph_model": "(Ej. Porsche 911, Harley Street Glide...)",
+    "lbl_service": "¿Qué te gustaría hacer?",
+    "opt_wash": "Lavado Manual Certificado",
+    "opt_interior": "Cuidado de Interiores Premium",
+    "opt_full": "Tratamiento Completo",
+    "lbl_notes": "Notas o deseos particulares",
+    "ph_notes": "(¿Esa marca en el guardabarros que no te deja dormir? Dímelo.)",
+    "btn_submit": "Enviar Petición por WhatsApp"
+  },
+  "Footer": {
+    "brand_desc": "La excelencia del Car Detailing en Riccione. Tratamos cada vehículo como una obra de arte, garantizando un cuidado de alta costura y precisión absoluta para preservar el valor de tu vehículo a lo largo del tiempo.",
+    "nav_title": "Navegación",
+    "social_title": "Síguenos",
+    "rights": "Autolavaggio Diamante Riccione. Todos los derechos reservados.",
+    "artisan": "Hecho a mano. Sin rodillos. Con pasión."
+  },
+  "Locale": {
+    "it": "Italiano",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "Navbar": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "method": "Unsere Methode",
+    "portfolio": "Portfolio",
+    "contacts": "Kontakt"
+  },
+  "Hero": {
+    "title1": "Pflege ist keine Option.",
+    "title2": "Sie ist das Einzige, was zählt.",
+    "subtitle": "Es gibt ein Geräusch, das man sofort erkennt. Es ist das Rascheln eines reinen Mikrofasertuchs auf einer frisch behandelten Karosserie. Es quietscht nicht. Es kratzt nicht. Es gleitet wie Seide auf Seide. Das ist der Klang unserer Arbeit.",
+    "cta_primary": "Eine Behandlung buchen",
+    "cta_secondary": "Unsere Methode entdecken",
+    "tagline": "Exzellenz im Car Detailing in Riccione"
+  },
+  "Services": {
+    "title": "Unsere Rituale",
+    "subtitle": "Keine automatischen Maschinen. Keine Bürsten. Nur Hände, sorgfältig ausgewählte Produkte aus der ganzen Welt und ein penibles Protokoll, bei dem auch unter Folter kein Schritt übersprungen wird.",
+    "washing_title": "Die kratzerfreie Wäsche",
+    "washing_desc": "Zwei Eimer. Partikelfilter im Wasser. Dichter Snow-Foam-Vorwäsche, die den Schmutz anhebt, noch bevor wir den Lack berühren. Und dann Tücher, zehn, zwanzig, jedes für einen anderen Bereich der Karosserie, um niemals eine einzige Verunreinigung von einer Oberfläche auf eine andere zu übertragen. Das Ergebnis? Null Swirls. Null Hologramme. Nur tiefe Farbe.",
+    "interior_title": "Innenraum: Das Leder atmet",
+    "interior_desc": "Leder lebt. Wir nähren es, spenden ihm Feuchtigkeit und schützen es wie ein Paar feiner englischer Schuhe oder einen Harley-Sattel. Trockendampf zur schonenden Desinfektion. Spezielle Öle für Armaturenbretter aus Wurzelholz, Kohlefaser, Alcantara. Jedes Material hat seinen Balsam, seine Liebkosung, seine Einwirkzeit. Und wir gewähren ihm alles.",
+    "opt_wash": "Zertifizierte Handwäsche",
+    "opt_interior": "Premium Innenraumpflege",
+    "opt_full": "Komplette Behandlung"
+  },
+  "Method": {
+    "title": "Die Behandlung für Ihren Ferrari",
+    "quote": "\"Waschanlagen zerstören. Wir bewahren.\"",
+    "p1": "Wir scheuen uns nicht, es zu sagen. Eine Waschstraße ist der Friedhof des Lacks. Mikrokratzer, Swirls, Trübung. Besonders bei dunklen Farben, bei tiefem Schwarz, bei matten oder seidigen Lackierungen.",
+    "p2": "Wir verwenden enthärtetes und gefiltertes Wasser, pH-neutrale Produkte und Technik. Nur Technik. Weil Ihr Ferrari – oder Ihr Aston Martin, oder Ihr 68er Alfa Romeo – es verdient hat, wie am ersten Tag zu glänzen. Oder vielleicht noch mehr.",
+    "img_alt": "Car Detailing in Aktion"
+  },
+  "Portfolio": {
+    "title": "Sehen Sie selbst, keine Erklärung nötig",
+    "subtitle": "Die Ergebnisse sprechen für sich. Blättern Sie durch unsere neuesten Arbeiten und entdecken Sie das Maß an Perfektion, das wir für Ihr Auto erreichen können.",
+    "ferrari_title": "Ferrari Roma",
+    "ferrari_cap": "Das Licht gleitet über die Motorhaube.",
+    "lambo_title": "Lamborghini Huracán",
+    "lambo_cap": "Scharfe Geometrien, jetzt makellos.",
+    "aston_title": "Aston Martin DB11",
+    "aston_cap": "Britische Eleganz, italienische Pflege.",
+    "gwagon_title": "Mercedes-Benz G-Klasse",
+    "gwagon_cap": "Selbst Riesen können zart sein.",
+    "alfa_title": "Alfa Romeo GT Junior",
+    "alfa_cap": "Ein Stück Herz, in seinem Glanz wiederhergestellt.",
+    "harley_title": "Harley-Davidson Street Glide",
+    "harley_cap": "Blendendes Chrom. Duftendes Leder."
+  },
+  "Reviews": {
+    "title": "Hören Sie auf sie, nicht auf uns",
+    "subtitle": "Sie glauben uns nicht? Schauen Sie bei Google vorbei und lesen Sie, was unsere Kunden sagen. In der Zwischenzeit machen wir uns wieder an die Arbeit.",
+    "based_on": "basierend auf",
+    "google_reviews": "Google-Bewertungen",
+    "fallback_note": "Hinweis: Ersatzbewertungen werden angezeigt"
+  },
+  "Contacts": {
+    "title": "Besuchen Sie uns.<br/>Oder besser, bringen Sie uns Ihr Auto.",
+    "subtitle": "Wir sind nur einen Steinwurf vom Meer entfernt, aber in unserem Labor bleibt die Zeit stehen. Der Sand bleibt draußen. Die Pflege tritt ein.",
+    "form_title": "Jetzt buchen",
+    "form_subtitle": "Kein kaltes Formular. Der erste Schritt zu einer vertrauensvollen Beziehung.",
+    "lbl_name": "Ihr Name",
+    "ph_name": "(Wie dürfen wir Sie nennen?)",
+    "lbl_phone": "Telefon / WhatsApp",
+    "ph_phone": "(Damit wir Ihnen ein Foto der fertigen Arbeit senden können)",
+    "lbl_model": "Ihr Auto oder Motorrad",
+    "ph_model": "(Z.B. Porsche 911, Harley Street Glide...)",
+    "lbl_service": "Was möchten Sie machen lassen?",
+    "opt_wash": "Zertifizierte Handwäsche",
+    "opt_interior": "Premium Innenraumpflege",
+    "opt_full": "Komplette Behandlung",
+    "lbl_notes": "Anmerkungen oder besondere Wünsche",
+    "ph_notes": "(Dieser Kratzer am Kotflügel, der Sie nachts wach hält? Sagen Sie es mir.)",
+    "btn_submit": "Anfrage über WhatsApp senden"
+  },
+  "Footer": {
+    "brand_desc": "Die Exzellenz des Car Detailings in Riccione. Wir behandeln jedes Fahrzeug wie ein Kunstwerk und garantieren maßgeschneiderte Pflege und absolute Präzision, um den Wert Ihres Fahrzeugs über die Zeit zu erhalten.",
+    "nav_title": "Navigation",
+    "social_title": "Folgen Sie uns",
+    "rights": "Autolavaggio Diamante Riccione. Alle Rechte vorbehalten.",
+    "artisan": "Handgemacht. Ohne Waschanlagen. Mit Leidenschaft."
+  },
+  "Locale": {
+    "it": "Italiano",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}
