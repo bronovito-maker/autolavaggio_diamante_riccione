@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: "SEO" });
 
   return {
+    metadataBase: new URL("https://autolavaggiodiamante.it"),
     title: t("title"),
     description: t("description"),
     openGraph: {

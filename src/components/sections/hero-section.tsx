@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ChevronRight, Sparkles, Star } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import lamboBg from "../../../public/images/portfolio/lambo.jpg";
 
 export function HeroSection() {
   const t = useTranslations("Hero");
@@ -12,12 +13,13 @@ export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 bg-surface">
         <Image
-          src="/images/portfolio/lambo.jpg"
+          src={lamboBg}
           alt="Luxury Car Detailing Background"
           fill
           priority
+          placeholder="blur"
           quality={90}
           sizes="100vw"
           className="object-cover opacity-80" 

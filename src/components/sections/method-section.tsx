@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
+import ferrariImg from "../../../public/images/portfolio/ferrari.jpg";
+
 export function MethodSection() {
   const t = useTranslations("Method");
 
@@ -45,9 +47,10 @@ export function MethodSection() {
             className="w-full lg:w-1/2 relative h-[500px] rounded-lg overflow-hidden border border-white/10"
           >
             <Image
-              src="/images/portfolio/ferrari.jpg"
+              src={ferrariImg}
               alt={t("img_alt")}
               fill
+              placeholder="blur"
               quality={90}
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"

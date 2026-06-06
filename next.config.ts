@@ -4,7 +4,10 @@ import type { NextConfig } from "next";
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    qualities: [75, 90, 100]
+  }
 };
 
 export default withNextIntl(nextConfig);
